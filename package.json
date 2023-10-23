@@ -1,0 +1,26 @@
+{
+  "name": "pkglock",
+  "version": "1.0.0",
+  "description": "fix your package-lock.json files",
+  "type": "module",
+  "main": "./bin/cli.js",
+  "bin": {
+    "pkglock": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "pkglock help"
+  },
+  "keywords": [
+    "npmrc",
+    "utility",
+    "shell",
+    "npm"
+  ],
+  "author": "Logan Land <logan@llbbl.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "replace-in-file": "^7.0.1",
+    "winston": "^3.11.0"
+  }
+}
